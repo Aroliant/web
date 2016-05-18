@@ -1,0 +1,52 @@
+body{
+    font-family:"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    width;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container h1{
+    margin-top: 13%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container form input{
+    border: 1px solid #d0d0d0;
+    padding: 7px 10px;
+    margin: 10px;
+    width: 100%;
+}
+.container form button{
+    background: #2196F3;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    color: #FFF;
+}
+.smallbox{
+width:25% !important;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+}
+footer p{
+    float:left;
+}
+footer ul{
+    list-style:none;
+    float:right;
+}
+
+footer ul li{
+    display:inline-block;
+}
+
+footer ul li a{
+    text-decoration:none;
+    margin-left:15px;
+}
